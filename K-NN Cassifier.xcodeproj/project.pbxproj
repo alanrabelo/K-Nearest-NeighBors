@@ -15,6 +15,9 @@
 		E76096C51E0ACA1900E850D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76096C31E0ACA1900E850D1 /* LaunchScreen.storyboard */; };
 		E76096D01E0ACA1900E850D1 /* K_NN_CassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76096CF1E0ACA1900E850D1 /* K_NN_CassifierTests.swift */; };
 		E76096DB1E0ACA1900E850D1 /* K_NN_CassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76096DA1E0ACA1900E850D1 /* K_NN_CassifierUITests.swift */; };
+		E76096E91E0ACA3200E850D1 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76096E81E0ACA3200E850D1 /* Flower.swift */; };
+		E76096EE1E0ACE6400E850D1 /* irisData.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E76096ED1E0ACE6400E850D1 /* irisData.rtf */; };
+		E76096F01E0AD1C800E850D1 /* irisData.txt in Resources */ = {isa = PBXBuildFile; fileRef = E76096EF1E0AD1C800E850D1 /* irisData.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E76096D61E0ACA1900E850D1 /* K-NN CassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-NN CassifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76096DA1E0ACA1900E850D1 /* K_NN_CassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K_NN_CassifierUITests.swift; sourceTree = "<group>"; };
 		E76096DC1E0ACA1900E850D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76096E81E0ACA3200E850D1 /* Flower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		E76096ED1E0ACE6400E850D1 /* irisData.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = irisData.rtf; sourceTree = "<group>"; };
+		E76096EF1E0AD1C800E850D1 /* irisData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = irisData.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,11 @@
 		E76096B61E0ACA1900E850D1 /* K-NN Cassifier */ = {
 			isa = PBXGroup;
 			children = (
+				E76096EC1E0ACCF300E850D1 /* RESOURCES */,
 				E76096B71E0ACA1900E850D1 /* AppDelegate.swift */,
 				E76096B91E0ACA1900E850D1 /* ViewController.swift */,
 				E76096BB1E0ACA1900E850D1 /* Main.storyboard */,
+				E76096E81E0ACA3200E850D1 /* Flower.swift */,
 				E76096C11E0ACA1900E850D1 /* Assets.xcassets */,
 				E76096C31E0ACA1900E850D1 /* LaunchScreen.storyboard */,
 				E76096C61E0ACA1900E850D1 /* Info.plist */,
@@ -126,6 +134,15 @@
 				E76096DC1E0ACA1900E850D1 /* Info.plist */,
 			);
 			path = "K-NN CassifierUITests";
+			sourceTree = "<group>";
+		};
+		E76096EC1E0ACCF300E850D1 /* RESOURCES */ = {
+			isa = PBXGroup;
+			children = (
+				E76096ED1E0ACE6400E850D1 /* irisData.rtf */,
+				E76096EF1E0AD1C800E850D1 /* irisData.txt */,
+			);
+			name = RESOURCES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +257,9 @@
 			files = (
 				E76096C51E0ACA1900E850D1 /* LaunchScreen.storyboard in Resources */,
 				E76096C21E0ACA1900E850D1 /* Assets.xcassets in Resources */,
+				E76096F01E0AD1C800E850D1 /* irisData.txt in Resources */,
 				E76096BD1E0ACA1900E850D1 /* Main.storyboard in Resources */,
+				E76096EE1E0ACE6400E850D1 /* irisData.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +286,7 @@
 			files = (
 				E76096C01E0ACA1900E850D1 /* K_NN_Cassifier.xcdatamodeld in Sources */,
 				E76096BA1E0ACA1900E850D1 /* ViewController.swift in Sources */,
+				E76096E91E0ACA3200E850D1 /* Flower.swift in Sources */,
 				E76096B81E0ACA1900E850D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
